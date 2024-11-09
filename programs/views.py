@@ -1,8 +1,9 @@
+# programs/views.py
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from djangoProject_final.models import Program
-from programs.serializers import ProgramSerializer
+from .models import Program
+from .serializers import ProgramSerializer
 
 class ProgramListView(APIView):
     def get(self, request):

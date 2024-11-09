@@ -1,5 +1,6 @@
+# programs/serializers.py
 from rest_framework import serializers
-from djangoProject_final.models import Program
+from .models import Program
 
 class ProgramSerializer(serializers.ModelSerializer):
     class Meta:

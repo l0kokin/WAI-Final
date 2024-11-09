@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3446db89-28b1-4147-8534-8efbcab9f3b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/programs/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/programs/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programs/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject_final/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject_final/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject_final/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject_final/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/programs/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/programs/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/programs/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,29 +23,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2obozcDJuUY6EULj7OIknxO9u6t" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/programs" />
@@ -92,7 +93,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731147900922</updated>
-      <workItem from="1731147911264" duration="1926000" />
+      <workItem from="1731147911264" duration="2972000" />
+      <workItem from="1731150976091" duration="1146000" />
     </task>
     <servers />
   </component>

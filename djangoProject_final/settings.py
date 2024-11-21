@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
 
     "corsheaders",
+    'success_stories',
 ]
 
 MIDDLEWARE = [

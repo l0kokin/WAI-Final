@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 
     'programs',
     'faq_literacy',
+    'faq_research',
 
     'whitenoise.runserver_nostatic',
 

@@ -25,6 +25,7 @@ urlpatterns = [
     path('success-stories/', include('success_stories.urls')),
     path('faq-literacy/', include('faq_literacy.urls')),
     path('api/', include('faq_research.urls')),
+    path('api/', include('faq_ailab.urls')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -3,7 +3,7 @@ from django.db import models
 class CardContent(models.Model):
     program_name = models.CharField(max_length=255)
     student_full_name = models.CharField(max_length=255)
-    picture = models.ImageField(upload_to='card_images/')
+    picture = models.URLField(max_length=500)
 
     def __str__(self):
         return f"{self.student_full_name} - {self.program_name}"

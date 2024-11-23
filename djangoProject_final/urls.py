@@ -26,6 +26,7 @@ urlpatterns = [
     path('faq-literacy/', include('faq_literacy.urls')),
     path('api/', include('faq_research.urls')),
     path('api/', include('faq_ailab.urls')),
+    path('homepage_slider/', include('homepage_slider.urls')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'faq_literacy',
     'faq_research',
     'faq_ailab',
+    'homepage_slider',
 
     'whitenoise.runserver_nostatic',
 

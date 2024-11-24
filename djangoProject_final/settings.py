@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     "contact_form",
     "contact_info",
     'homepage_slider',
+    'faq_aside',
 
     'whitenoise.runserver_nostatic',
 

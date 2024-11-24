@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3446db89-28b1-4147-8534-8efbcab9f3b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/contact_form/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact_form/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/djangoProject_final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangoProject_final.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject_final/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject_final/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject_final/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject_final/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_form/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact_form/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

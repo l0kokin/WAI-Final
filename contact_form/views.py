@@ -4,7 +4,7 @@ from rest_framework import status
 from django.core.mail import send_mail
 from django.conf import settings
 import logging
-from .serializers import ContactMessageSerializer  # Fixed import statement
+from .serializers import ContactMessageSerializer
 
 logger = logging.getLogger(__name__)
 

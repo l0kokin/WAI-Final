@@ -28,7 +28,7 @@ urlpatterns = [
     path('api/', include('faq_ailab.urls')),
     path('homepage_slider/', include('homepage_slider.urls')),
     path('api/contact/', include('contact_form.urls')),
-    path('api/contact_info', include('contact_info.urls')),
+    path('api/', include('contact_info.urls')),
 
 ]
 

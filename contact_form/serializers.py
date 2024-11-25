@@ -1,9 +1,7 @@
 from rest_framework import serializers
+from .models import ContactMessage
 
-class ContactMessageSerializer(serializers.Serializer):
-    name = serializers.CharField(max_length=100)
-    email = serializers.EmailField()
-    message = serializers.CharField()
-
-    def create(self, validated_data):
-        return validated_data
+class ContactMessageSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ContactMessage
+        fields = ['name', 'email', 'message']

@@ -8,3 +8,4 @@ whitenoise==6.8.2
 psycopg2==2.9.10
 django-cors-headers==4.6.0 
 Pillow==11.0.0
+python-dotenv~=1.0.1

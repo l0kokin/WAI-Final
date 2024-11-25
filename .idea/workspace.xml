@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3446db89-28b1-4147-8534-8efbcab9f3b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/faq_aside/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq_aside/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq_aside/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq_aside/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq_aside/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq_aside/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq_aside/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq_aside/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq_aside/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq_aside/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject_final/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject_final/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject_final/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject_final/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -29,16 +44,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Django Server.djangoProject_final.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging ContactForm",
+    "last_opened_file_path": "C:/Users/barat/WAI-Final",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -55,6 +72,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="djangoProject_final.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -76,8 +94,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
-        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
+        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
       </set>
     </attachedChunks>
   </component>
@@ -91,6 +109,9 @@
       <updated>1731147900922</updated>
       <workItem from="1731147911264" duration="2972000" />
       <workItem from="1731150976091" duration="4979000" />
+      <workItem from="1732368474167" duration="10997000" />
+      <workItem from="1732385848178" duration="6336000" />
+      <workItem from="1732440289369" duration="3635000" />
     </task>
     <servers />
   </component>

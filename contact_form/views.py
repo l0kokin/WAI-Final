@@ -1,10 +1,9 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from django.core.mail import send_mail
-from django.conf import settings
-import logging
+from .models import ContactMessage
 from .serializers import ContactMessageSerializer
+import logging
 
 logger = logging.getLogger(__name__)
 
@@ -13,38 +12,16 @@ class ContactFormView(APIView):
         try:
             serializer = ContactMessageSerializer(data=request.data)
             if serializer.is_valid():
-                logger.info(f"Attempting to send email from {serializer.validated_data['email']}")
+                # Save the message to the database
+                contact_message = ContactMessage.objects.create(
+                    name=serializer.validated_data['name'],
+                    email=serializer.validated_data['email'],
+                    message=serializer.validated_data['message']
+                )
+                logger.info(f"Saved contact message from {contact_message.email}")
 
-                try:
-                    # Print debugging information
-                    print("Email settings:", {
-                        "host": settings.EMAIL_HOST,
-                        "port": settings.EMAIL_PORT,
-                        "use_tls": settings.EMAIL_USE_TLS,
-                        "user": settings.EMAIL_HOST_USER,
-                        "has_password": bool(settings.EMAIL_HOST_PASSWORD),
-                    })
-
-                    send_mail(
-                        subject=f"New message from {serializer.validated_data['name']}",
-                        message=f"Message from {serializer.validated_data['name']} ({serializer.validated_data['email']}):\n\n{serializer.validated_data['message']}",
-                        from_email=settings.DEFAULT_FROM_EMAIL,
-                        recipient_list=[settings.CONTACT_EMAIL],
-                        fail_silently=False,
-                    )
-
-                    logger.info("Email sent successfully")
-                    return Response({"message": "Message sent successfully!"}, status=status.HTTP_200_OK)
-
-                except Exception as e:
-                    logger.error(f"Failed to send email: {str(e)}")
-                    return Response(
-                        {"error": f"Failed to send email: {str(e)}"},
-                        status=status.HTTP_500_INTERNAL_SERVER_ERROR
-                    )
-
+                return Response({"message": "Message saved successfully!"}, status=status.HTTP_200_OK)
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
         except Exception as e:
             logger.error(f"Unexpected error: {str(e)}")
             return Response(

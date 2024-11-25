@@ -30,8 +30,8 @@ urlpatterns = [
     path('api/', include('faq_ailab.urls')),
     path('homepage_slider/', include('homepage_slider.urls')),
     path('', include('faq_aside.urls')),
-    path('api/contact/', include('contact_form.urls')),
-    path('api/', include('contact_info.urls')),
+    path('contactus/', include('contact_form.urls')),
+    path('api/contact-info/', include('contact_info.urls')),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

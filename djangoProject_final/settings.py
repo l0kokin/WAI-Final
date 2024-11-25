@@ -49,7 +49,6 @@ INSTALLED_APPS = [
     'faq_research',
     'faq_ailab',
     "contact_form",
-    "contact_info",
     'homepage_slider',
     'faq_aside',
 
@@ -167,13 +166,3 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 
 
-# for contactus section
-load_dotenv()
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
-DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
-CONTACT_EMAIL = os.getenv('CONTACT_EMAIL')
